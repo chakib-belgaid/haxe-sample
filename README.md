@@ -9,4 +9,6 @@ We run a test of 50000000 iteration .
 - Interpreted: 13.300s
 - js : 1.767  #have to replace console.log with print 
 - java :0.528s 
-- cpp: 0m0.449s 
+- cpp: 0.449s 
+- python: 33.248s
+- 
