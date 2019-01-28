@@ -24,7 +24,7 @@ class Main {
     if (benchname != null) {
       if (benchname == 'intArithmetic') 
         __intArithmetic(wamrup,execution);    
-      else if (benchname == 'intArithmetic') \
+      else if (benchname == 'intArithmetic') 
         __intArithmetic(wamrup,execution);
       else if (benchname == 'intArithmetic') 
         __intArithmetic(wamrup,execution);

@@ -2,6 +2,7 @@ FROM chakibmed/haxe:base
 
 WORKDIR /example 
 ADD . .
+
 RUN haxe -main Main --cpp example-cpp \
     && haxe -main Main --java example-java \
     && haxe -main Main --php example-php \
@@ -11,5 +12,5 @@ RUN haxe -main Main --cpp example-cpp \
     && haxe  -lib hxnodejs -main Main --js example-js/main.js 
       
 
-ENTRYPOINT [ "./launcher.sh" ]
+ENTRYPOINT ["./launcher.sh"]
 CMD ["java","intArithmetic","5","10"]

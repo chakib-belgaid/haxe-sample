@@ -1,3 +1,4 @@
+#!/bin/bash
 
 target=$1
 
