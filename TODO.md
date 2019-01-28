@@ -1,9 +1,10 @@
 
 # dev process 
-- [ ] implement lua 
-- [ ] implement other tests 
-- [ ] automatization of compiling process  
-- [ ] adjusting the parameters 
+- [ ] Implement lua 
+- [X] Implement other tests 
+- [ ] Automatization of compiling process 
+- [ ] Adding argv params 
+- [ ] Adjusting the parameters 
 
 
 # presentation 
