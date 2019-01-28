@@ -10,7 +10,7 @@ shift
 params=$@ 
 
 targets=( cpp \
-pythn \ 
+python \ 
 cs \
 java \ 
 js \ 
