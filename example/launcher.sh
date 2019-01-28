@@ -21,15 +21,16 @@ interp \
 
 case "$target" in 
 "cpp") 
-    example-cpp/main $params ;;
+    example-cpp/Main $params ;;
 "python") 
-    python example-python/bin/main.py $params ;;
+    python example-python/main.py $params ;;
 "cs") 
     mono example-cs/bin/Main.exe $params ;;
 "java") 
     java -jar example-java/Main.jar $params ;;
 "js") 
-    rhino example-js/main.js  $params ;;
+    node
+     example-js/main.js  $params ;;
 "php") 
     php example-php/index.php $params ;;
 "lua") 

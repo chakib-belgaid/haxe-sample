@@ -6,7 +6,7 @@ step=20
 
 implementations=( \
 cpp \
-pythn \ 
+python \ 
 cs \
 java \ 
 js \ 
