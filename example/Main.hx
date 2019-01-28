@@ -24,16 +24,16 @@ class Main {
     if (benchname != null) {
       if (benchname == 'intArithmetic') 
         __intArithmetic(wamrup,execution);    
-      else if (benchname == 'intArithmetic') 
-        __intArithmetic(wamrup,execution);
-      else if (benchname == 'intArithmetic') 
-        __intArithmetic(wamrup,execution);
+      else if (benchname == 'doubleArithmetic') 
+        __doubleArithmetic(wamrup,execution);
+      else if (benchname == 'trig') 
+        __trig(wamrup,execution);
       else  
         trace ("error module not found ") ; 
     }else{
       __intArithmetic(wamrup,execution);    
-      __intArithmetic(wamrup,execution);
-      __intArithmetic(wamrup,execution);
+      __doubleArithmetic(wamrup,execution);
+      __trig(wamrup,execution);
     }
 
   }
