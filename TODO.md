@@ -1,9 +1,9 @@
 
 # dev process 
-- [ ] Implement lua 
+- [X] Implement lua 
 - [X] Implement other tests 
-- [ ] Automatization of compiling process 
-- [ ] Adding argv params 
+- [X] Automatization of compiling process 
+- [X] Adding argv params 
 - [ ] Adjusting the parameters 
 
 
