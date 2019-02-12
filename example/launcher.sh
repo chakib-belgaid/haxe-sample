@@ -29,8 +29,7 @@ case "$target" in
 "java") 
     java -jar example-java/Main.jar $params ;;
 "js") 
-    node
-     example-js/main.js  $params ;;
+    nodejs example-js/main.js  $params ;;
 "php") 
     php example-php/index.php $params ;;
 "lua") 
